@@ -20,6 +20,7 @@ SELECTOR  {
 ```
 
 ###TODO:
-1. Cross-browsers support.
-2. Recalculate when window resized.
-3. General improvements.
+1. Cross-browsers support
+2. Support link tag
+3. Recalculate when window resized
+4. General improvements
