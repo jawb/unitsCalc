@@ -6,11 +6,17 @@ I found out after working on this first draft that there is a standard function 
 
 ###Usage:
 ```
+<style> //Only in style tag
 SELECTOR  {
     ...
     property: calc(EXPRESSION); //can't be used in composite properties
     ...
 }
+</style>
+
+<script>
+    unitsCalc.init();
+</script>
 ```
 
 ###TODO:
