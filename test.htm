@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            #myDiv {
+                width: calc(150px+2%);
+                height: calc(50%-(5px*4px));
+                background: red;
+            }
+        </style>
+        <style>
+            .mydiv {
+                width: calc(150px+12%);
+                height: 150px;
+                background: #000;
+            }
+        </style>
+        <script type="text/javascript" src="unitsCalc.js"></script>
+    </head>
+    <body>
+        <div class="mydiv"></div>
+        <div style="height: 500px;">
+            <div id="myDiv"></div>
+        </div>
+    </body>
+    <script>
+        unitsCalc.init();
+    </script>
+</html>
